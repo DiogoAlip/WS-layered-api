@@ -1,0 +1,25 @@
+{
+  "name": "modelon_capas_node",
+  "version": "1.0.0",
+  "description": "arquitectura basada en n-capas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salomonSanchez/modeloN_capas_Node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salomonSanchez/modeloN_capas_Node/issues"
+  },
+  "homepage": "https://github.com/salomonSanchez/modeloN_capas_Node#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "path": "^0.12.7",
+    "socket.io": "^4.7.4"
+  }
+}
