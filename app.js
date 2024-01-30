@@ -13,6 +13,7 @@ io.on("connection", (socket) => {
 });
 
 //app.use(express.static(`${__dirname}/presentacion/index.html`));
+app.use(express.static(path.join(__dirname, "public")));
 app.use(express.static(path.join(__dirname, "Negocio")));
 app.use(express.static(path.join(__dirname, "baseDeDatos")));
 app.use(express.static(path.join(__dirname, "presentacion")));
