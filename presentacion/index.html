@@ -15,27 +15,29 @@
           <div class="col-md-4"></div>
           <div class="form-group col-md-4">
             <label for="to">To:</label>
-            <input type="email" class="form-control" name="to" />
+            <input
+              type="email"
+              required=""
+              class="form-control"
+              name="to"
+              id="address"
+              minlength="5"
+            />
           </div>
         </div>
 
         <div class="row">
           <div class="col-md-4"></div>
           <div class="form-group col-md-4">
-            <label for="subject">Subject:</label>
-            <input type="text" class="form-control" name="subject" />
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-4"></div>
-          <div class="form-group col-md-4">
-            <label for="body">Body:</label>
+            <label for="body">Message:</label>
             <textarea
+              id="message"
               cols="5"
+              required=""
               rows="5"
               class="form-control"
               name="body"
+              minlength="8"
             ></textarea>
           </div>
         </div>

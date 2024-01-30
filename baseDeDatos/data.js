@@ -1,4 +1,25 @@
-export const arr = [{}];
+export let arr = [
+  {
+    user: "Sebaco@gmail.com",
+    messages: [],
+  },
+  {
+    user: "Dominiti125@gmail.com",
+    messages: [],
+  },
+  {
+    user: "Dainago69@gmail.com",
+    messages: [],
+  },
+  {
+    user: "malcomidle@hotmail.com",
+    messages: [],
+  },
+  {
+    user: "rebecarabit@gmail.com",
+    messages: [],
+  },
+];
 
 /*
 

@@ -7,7 +7,9 @@ const { Server } = require("socket.io");
 const io = new Server(server);
 
 io.on("connection", (socket) => {
-  console.log("im in");
+  socket.on("newMessage", ({ inputAddress, inputMessage }) => {
+    console.log(`${inputAddress} | ${inputMessage}`);
+  });
 });
 
 //app.use(express.static(`${__dirname}/presentacion/index.html`));
