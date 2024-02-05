@@ -1,4 +1,4 @@
-import { MessageUserService } from "../Negocio/MessageUserService";
+import { MessageUserService } from "./MessageUserService.js";
 //import { message_users } from "../DAL/messages_users_DB.js";
 
 let socket = io();

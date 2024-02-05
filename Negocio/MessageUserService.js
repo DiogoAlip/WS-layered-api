@@ -1,4 +1,4 @@
-import { MessageUser } from "../DAL/MessageUser";
+import { MessageUser } from "./MessageUser.js";
 export const MessageUserService = {
   saveNewUser: (message, user) => {
     if (user.user == "") throw "USER NOT FOUND";

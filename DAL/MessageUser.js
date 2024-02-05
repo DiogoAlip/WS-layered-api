@@ -1,4 +1,4 @@
-import { message_users } from "./messages_users_DB";
+import { message_users } from "./messages_users_DB.js";
 export const MessageUser = {
   saveNewMessage: (message, user) => {
     message_users.find((e) => e.user == user).messages.push(message);
